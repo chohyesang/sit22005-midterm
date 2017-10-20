@@ -6,6 +6,11 @@
 > 4. Read and follow the instructions for each question.
 > 5. There are five problems. Read the problem description carefully and give the right answer.
 
+# Important!!
+If your code has syntax errors so that the TA cannot compile your code, you will get 0 point.
+Please make sure that your code does not have compile errors.
+If your code can be compiled and executable, which means it does not have runtime error, you will get 5 points.
+
 ## Problem01
 True/False Questions.
 
