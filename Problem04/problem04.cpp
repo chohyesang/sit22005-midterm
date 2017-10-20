@@ -22,7 +22,8 @@ int main()
 	    (*c_ptr) = toupper((*c_ptr));
 	    index = (*c_ptr) - 'A';
 
-		/* blank */
+		if (index <0 || index > 26) std::cout << "Error! 알파벳을 입력하라고!";
+		
 		{
 			if(index < 6)
 		    {
@@ -30,15 +31,15 @@ int main()
 		    }
 		    else if(index > 6 && index < 13)
 		    {
-		    	/* blank */
+		    	*c_ptr = codex[index-7];
 		    }
-		    /* blank */
+		    else if(index > 13 && index < 20)
 		    {
-				/* blank */
+				*c_ptr = codex[index+7];
 		    }
-		    /* blank */
+		    else if(index > 20 && index < 27)
 		    {
-				/* blank */
+				*c_ptr = codex[index-7];
 		    }
 		}
 	    
