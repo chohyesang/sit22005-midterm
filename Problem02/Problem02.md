@@ -30,7 +30,7 @@ void swap_int(int* ptr1, int* ptr2)
 ```
 You should correct the syntax errors to work properly. 
 You may refer the output result of the program using output program.
-You may execute the 
+You may execute the program as follows.
 ```
 ~/workspace/midterm/Problem02 (master) $./output
 ```
