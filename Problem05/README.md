@@ -7,7 +7,8 @@ Moreover, your program should satisfy the following requirements.
 + The length of the operand cannot exceed 100.
 + User may enter negative number. If the user enters the negative number, you may assume that there is no white space between number and the sign.
 + Assume that the user does not put alphabet or other symbols, except + and -.
-
++ You should dynamically allocate memory using new/delete keywords
++ 
 Refer the following code skeleton
 ```
 int main(int argc, char** argv)
