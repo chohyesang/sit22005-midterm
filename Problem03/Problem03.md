@@ -1,4 +1,4 @@
-# Problem02
+# Problem03
 Following Code has several semantic errors. 
 ```
 #include <iostream>
@@ -35,7 +35,7 @@ void increase_variable(int var)
 ```
 You should correct the semantic errors to work properly. 
 You may refer the output result of the program using output program.
-You may execute the 
+You may execute the program as follows.
 ```
 ~/workspace/midterm/Problem03 (master) $./output
 ```

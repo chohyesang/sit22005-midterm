@@ -1,4 +1,4 @@
-all: Problem02
+all: Problem04
 	g++ -L. Problem04.o -o Problem04
 
 Problem04: problem04.cpp
