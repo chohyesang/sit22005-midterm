@@ -1,3 +1,6 @@
+# Problem02
+Following Code has several semantic errors. 
+```
 #include <iostream>
 
 void increase_variable(int var);
@@ -29,3 +32,10 @@ void increase_variable(int var)
 {
     var++;
 }
+```
+You should correct the semantic errors to work properly. 
+You may refer the output result of the program using output program.
+You may execute the 
+```
+~/workspace/midterm/Problem03 (master) $./output
+```

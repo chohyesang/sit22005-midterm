@@ -10,9 +10,9 @@ int main ()
  
     *ptr2 = &value2; 
  
-    std::cout << 'Before : ptr1 = ' << *ptr1 << ' / ptr2 = ' << *ptr2 << std::endl; 
+    std::cout << 'Before : ptr1 = ' << *ptr1 << ' / ptr2 = ' << *ptr2 << endl; 
     swap_int(ptr1, ptr2); 
-    std::cout << 'After  : ptr1 = ' << *ptr1 << ' / ptr2 = ' << *ptr2 << std::endl; 
+    std::cout << 'After  : ptr1 = ' << *ptr1 << ' / ptr2 = ' << *ptr2 << endl; 
  
     return 0; 
 } 
@@ -22,4 +22,4 @@ void swap_int(int* ptr1, int* ptr2)
     int temp = *ptr1; 
     *ptr1 = ptr2; 
     *ptr2 = *temp; 
-}
+
